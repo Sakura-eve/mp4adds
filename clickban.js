@@ -24,3 +24,8 @@ document.onkeydown = document.onkeyup = document.onkeypress = function() {
         return (false);
     }
 }
+
+//关闭div
+function CloseDiv(div) {
+    document.getElementById(div).style.display = 'none';
+}
